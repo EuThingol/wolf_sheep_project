@@ -4,6 +4,7 @@ import pandas as pd
 import time
 import decimal
 import random
+import matplotlib.pyplot as plt
 #set decimal number
 decimal.getcontext().prec = 20
 NUMBER_OF_ITERATION = 3000000
