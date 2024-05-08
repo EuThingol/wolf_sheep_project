@@ -1,8 +1,9 @@
-mohammad
+#mohammad
 import numpy as np
 import pandas as pd
 import time
 import decimal
+import random
 #set decimal number
 decimal.getcontext().prec = 20
 NUMBER_OF_ITERATION = 3000000
@@ -12,6 +13,7 @@ second_df = pd.DataFrame(list_of_num,columns=["A"]).reset_index(drop=True)
 
 #-------------------------------------------------------------
 number_list = list(range(NUMBER_OF_ITERATION))
+change = number_list
 
 #first method
 first_method_start_time = decimal.Decimal(time.time())
